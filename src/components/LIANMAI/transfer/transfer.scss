@@ -1,0 +1,82 @@
+@import "../../../global.scss";
+.item {
+  //margin: 0.5rem 0.8rem;
+  margin: 0;
+  //border-radius: 3px;
+  background-color: #fff;
+  border-bottom: .5px solid #e1e1e1;
+  padding: 1.1rem .7rem;
+  padding-bottom: 1rem;
+  position: relative;
+  //box-shadow: 0 0 10px #e3e3e3;
+
+  h4, h5{
+    margin: 0;
+    font-weight: normal;
+    margin-bottom: 0.8rem;
+  }
+  h4{
+    font-size: 1rem;
+  }
+  h5 {
+    font-weight: 400;
+    color: $sub-text-color;
+    font-size: .8rem;
+  }
+  img {
+    width: 1.2rem;
+  }
+}
+
+.assistList {
+  //margin-top: 2.35rem;
+  margin-top: .35rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  flood-color: $sub-text-color;
+  font-weight: 300;
+  align-items: center;
+}
+
+.left {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+}
+
+.wrapper {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+  .avatar {
+    width: 1.2rem;
+  }
+}
+
+.empty {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  top:50%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #a8a8a8;
+  font-size: 1.5rem;
+  img {
+    width: 7rem;
+    margin: 0 auto;
+  }
+  h4 {
+    font-weight: 300 !important;
+  }
+}
+
+

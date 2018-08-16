@@ -1,0 +1,21 @@
+.shops-products-span {
+    display: block;
+    color: rebeccapurple;
+}
+
+.shops-left {
+    display: inline-block;
+}
+
+.shops-right {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.shops-main {
+    display: block;
+}
+
+.shops-form-item {
+
+}

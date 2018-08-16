@@ -1,0 +1,70 @@
+@import "../../global.scss";
+.main {
+  position: absolute;
+  width: 100%;
+  box-sizing: content-box;
+  vertical-align: top;
+}
+
+
+.navBar {
+  z-index: 9999;
+  position: fixed;
+  bottom: 0;
+  height: 4rem;
+  display: flex ;
+  justify-content: space-between;
+  padding: 0 5%;
+  padding-top: 1.5%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  line-height: 4rem;
+  box-shadow: $bottomShadow;
+  font-size: 0.8rem;
+}
+
+.linkItem {
+  box-sizing: border-box;
+  text-align: center;
+  width: 30%;
+  text-decoration: none;
+  color: $main-text-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1rem;
+  padding: 0.4rem;
+  img {
+    vertical-align: top;
+    height: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  span.active {
+    color: #24a1ff;
+  }
+
+}
+
+
+
+// 转场动画
+:global(.change-enter) {
+  opacity:0.01;
+  background-color: #fff;
+}
+
+:global(.change.change-enter-active) {
+  opacity: 1;
+  background-color: #ffff00;
+  transition: opacity 400ms ease-in;
+}
+
+:global(.change-leave) {
+  opacity: 1;
+}
+
+:global(.change-leave.change-leave-active) {
+  opacity: 0.01;
+  transition: opacity 400ms ease-in;
+}

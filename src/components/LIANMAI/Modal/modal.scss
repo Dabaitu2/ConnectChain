@@ -1,0 +1,79 @@
+@import "../../../global.scss";
+.wrapper {
+  width: calc(100% - 1.5rem);
+  height: 40rem;
+  position: fixed;
+  top:0;
+  background-color: rgba(255, 255, 255, 0.27);
+  z-index: 300;
+  animation: slideInDown .5s linear;
+}
+.main {
+  width: 15rem;
+  height: 13rem;
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(238, 236, 228, 0.77);
+  position: fixed;
+  top: 8rem;
+  left: calc((100% - 15rem)/2);
+  border-radius: 5px;
+  z-index: 301;
+  .content {
+    height: 60%;
+    text-align: center;
+    padding-top: 2rem ;
+    img {
+      width: 4rem;
+    }
+  }
+  .bottom {
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-right: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    span {
+      height: 1.5rem;
+      line-height: 1.5rem;
+      display: inline-block;
+      margin-right: 0.5rem;
+      color: #56adf5;
+    }
+  }
+}
+
+.leave {
+  animation: leave .3s ease-in;
+  transform: translateY(-100%);
+}
+
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  65% {
+    transform: translateY(6%);
+  }
+  70% {
+    transform: translateY(4%);
+  }
+  75% {
+    transform: translateY(2%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes leave {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+

@@ -1,0 +1,89 @@
+
+
+$light-orange: #24a1ff;
+$red-inner-dot: #f16161;
+$red-outer-dot: rgba(255, 138, 138, 0.53);
+$main-text-color: #333333;
+$other-text-color: #666666;
+$sub-text-color: #999999;
+$in-progress: #ff8264;
+$success: #4daf6c;
+$outdated: #565656;
+$outdated-inner: #979797;
+$dark-red: #24a2ff;
+$navShadow: 0 2px 6px #d8d8d8;
+$bottomShadow: 0 -2px 6px #d8d8d8;
+
+:global(body) {
+  font-family: "PingFang SC","Microsoft YaHei", "Hiragino Sans GB","Microsoft JhengHei UI",'Open Sans', sans-serif;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+:global(.default-bg) {
+  //background-color: #f2f2f2;
+  background-color: #f7f7f7;
+  vertical-align: top;
+  width: 100%;
+}
+.light-orange-text {
+    color: $light-orange;
+}
+.light-orange-bg {
+  background-color: $light-orange;
+}
+.red-inner-dot {
+  background-color: $red-inner-dot;
+}
+:global(.sub-color) {
+  color: $sub-text-color;
+}
+:global(.other-color) {
+  color: $other-text-color;
+}
+
+
+// 路由转场动画
+// TODO 更换转场方式
+// 这里会遇到高度问题，需要在画面闪动和高度陡变之间做取舍
+// 暂时选择画面闪动
+:global(.fade-enter) {
+  opacity:0.01;
+}
+
+:global(.fade.fade-enter-active) {
+  opacity: 1;
+  transition: opacity 300ms ease-out;
+}
+
+:global(.fade-leave) {
+  opacity: 1;
+}
+
+:global(.fade-leave.fade-leave-active) {
+  opacity: 0.01;
+  transition: opacity 300ms ease-out;
+}
+
+
+
+:global(.modal-fade-enter) {
+  opacity:0.01;
+}
+
+:global(.modal-fade.modal-fade-enter-active) {
+  opacity: 1;
+  transition: opacity 300ms ease-out;
+}
+
+:global(.modal-fade-leave) {
+  opacity: 1;
+}
+
+:global(.modal-fade-leave.modal-fade-leave-active) {
+  opacity: 0.01;
+  transition: opacity 300ms ease-out;
+}
+
+

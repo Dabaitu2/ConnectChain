@@ -1,0 +1,50 @@
+@import "../../../global.scss";
+.slideLine {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #24a2ff;
+  height: 2px;
+  border-radius: 2px;
+}
+
+
+.main {
+  height: 2.5rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.hintList {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  position: relative;
+  top:  -1.3rem;
+  color: $other-text-color;
+  font-weight: 300;
+  z-index: 0;
+}
+
+.choseDot {
+  position: relative;
+  margin: 0 auto;
+  width: 0.6rem;
+  height: 0.6rem;
+  display: inline-block;
+  background-color: $dark-red;
+  border-radius: 50%;
+  top: -0.2rem;
+}
+
+.hintTips {
+  position: absolute;
+  display: inline-block;
+  top: .7rem;
+  width: 2.2rem;
+  left: -.8rem;
+  font-size: 1.2rem;
+
+}

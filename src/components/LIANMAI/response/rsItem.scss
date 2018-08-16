@@ -1,0 +1,87 @@
+@import '../../../global.scss';
+
+.item {
+  margin: 0.5rem 0.8rem;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 1.1rem 0.6rem;
+  padding-bottom: 0.5rem;
+  box-shadow: 0 0 10px #e3e3e3;
+  position: relative;
+  //box-shadow: 0 0 3px #dddddd;
+  h4, h5{
+    margin: 0;
+    font-weight: normal;
+    margin-bottom: 0.8rem;
+  }
+  h4{
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-weight: 400;
+    color: $sub-text-color;
+    font-size: .9rem;
+  }
+}
+
+.timeInfo {
+  font-size: 0.8rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  color: $other-text-color;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  img {
+    height: 1rem;
+    margin-right:0.3rem;
+  }
+}
+
+.timeContainer {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.status {
+  vertical-align: top;
+  display: inline-block;
+  height: 1.5rem;
+  margin-right: .2rem;
+}
+.newsDot {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: $red-inner-dot;
+  border: 0.1rem $red-outer-dot solid;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.6rem;
+  box-shadow: 0 0.1rem 0.3rem $red-outer-dot;
+}
+.empty {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  top:50%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #a8a8a8;
+  font-size: 1.5rem;
+  font-weight: 300 !important;
+  img {
+    width: 7rem;
+    margin: 0 auto;
+  }
+  h4 {
+    font-weight: 300 !important;
+  }
+}
+

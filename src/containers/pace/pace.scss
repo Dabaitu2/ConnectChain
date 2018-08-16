@@ -1,0 +1,82 @@
+:global(.tab){
+  display: inline-block;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  //height: 80vh;
+  width: 33.3%;
+  vertical-align: top;
+  padding-bottom: 3.5rem;
+  overflow-y: scroll;
+  min-height:calc(100vh - 7rem);
+}
+
+:global(.tabList) {
+  width: 300%;
+  margin-top: 3.4rem;
+  margin-bottom: .5rem;
+}
+
+:global(.viewPort) {
+  width: 100%;
+  overflow-x: hidden;
+  vertical-align: top;
+  position: absolute;
+}
+
+// 正向动画
+:global(.example-enter) {
+  transform: translateX(-100%);
+}
+
+:global(.example-enter.example-enter-active) {
+  transition: all 400ms linear;
+  transform: translateX(0%);
+}
+
+:global(.example-leave) {
+  transform: translateX(-100%);
+}
+
+:global(.example-leave.example-leave-active) {
+  transition: all 400ms linear;
+  transform: translateX(0);
+}
+
+
+// 反向动画
+:global(.reverse-enter) {
+  transform: translateX(0%);
+}
+
+:global(.reverse-enter.reverse-enter-active) {
+  transition: all 400ms linear;
+  transform: translateX(-100%);
+}
+
+:global(.reverse-leave) {
+  transform: translateX(0%);
+}
+
+:global(.reverse-leave.reverse-leave-active) {
+  transition: all 400ms linear;
+  transform: translateX(-100%);
+}
+
+// 另一个动画
+:global(.secReverse-enter) {
+  transform: translateX(100%);
+}
+
+:global(.secReverse-enter.secReverse-enter-active) {
+  transition: all 400ms linear;
+  transform: translateX(0%);
+}
+
+:global(.secReverse-leave) {
+  transform: translateX(-100%);
+}
+
+:global(.secReverse-leave.secReverse-leave-active) {
+  transition: all 400ms linear;
+  transform: translateX(-200%);
+}

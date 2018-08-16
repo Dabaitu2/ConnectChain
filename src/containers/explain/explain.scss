@@ -1,0 +1,62 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  vertical-align: top;
+  padding: 2rem 3rem;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  .head {
+    div {
+      margin: 1rem auto;
+      text-indent: 2em;
+    }
+  }
+  h2 {
+    display: flex;
+    align-items: center;
+  }
+  .why {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    position: relative;
+    top: -0.5rem;
+  }
+  .InputGroup {
+    margin-top: 2rem;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px #e2e2e2;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+
+    input {
+      display: block;
+      border: none;
+      border-radius: 8px;
+      background-color: #eeeeee;
+      margin: 1rem auto;
+      height: 2rem;
+      text-align: center;
+      width: 80%;
+      &::placeholder {
+        color: #8b8b8b;
+        text-align: center;
+      }
+    }
+    span {
+      display: inline-block;
+      width: 4rem;
+      color: #FFB392;
+    }
+  }
+}
+.btnGroup {
+  span {
+    margin: 0 1rem;
+  }
+}

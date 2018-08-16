@@ -1,0 +1,131 @@
+@import "../../global.scss";
+.main {
+  vertical-align: top;
+  background-color: white;
+  min-height: calc(100vh - 3rem);
+  width: 100%;
+  overflow-y: scroll;
+  position: relative;
+  .info {
+    background-color: white;
+    height: 12rem;
+    box-shadow: 0 2px 15px #efefef;
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding: 1.875rem;
+    padding-bottom: 0;
+    .data {
+      display: flex;
+      justify-content:space-between;
+      box-sizing: border-box;
+      margin-top: 1.875rem;
+      div{
+        width: 20%;
+        text-align: center;
+        &>span {
+          display: inline-block;
+          width: 90%;
+          font-size: 0.8rem;
+          color: #787878;
+          font-weight: 300 !important;
+          font-family: "Century Gothic", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft YaHei UI";
+          span {
+            font-size: 0.8rem;
+            color: #666666;
+            font-weight:normal;
+          }
+        }
+        .number {
+          font-size: 1.5rem;
+          color: #333333;
+          font-weight:bold;
+        }
+      }
+    }
+    .detail {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      .avatar {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        box-sizing: border-box;
+        overflow: hidden;
+        img {
+          height: 100%;
+        }
+      }
+      .infoDetail {
+        font-size: 1.1rem;
+        line-height: 2.2rem;
+        font-weight: 400 !important;
+        display: flex;
+        justify-content: space-between;
+        color: #3c3c3c;
+        width: calc(100% - 4rem);
+        .userName {
+          display: flex;
+          flex-direction: column;
+          font-weight: bold;
+          font-size: 1.4rem;
+          margin-left: 1rem;
+          .level {
+            font-size: .9rem;
+            font-style: italic;
+            line-height: 1.2rem;
+            font-weight: 800 !important;
+            color: #666666;
+          }
+        }
+        .status {
+          font-size: 1rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          img{
+            padding-top: 1rem;
+            height: 1.4rem;
+          }
+          a {
+            text-decoration: none;
+            color: $other-text-color;
+          }
+        }
+      }
+    }
+
+  }
+  .headerImg {
+    width: 100%;
+  }
+  .nav {
+    padding-top: 1rem;
+    .navItem {
+      height: 4.1875rem;
+      font-weight: 400;
+      font-size: 0.9375rem;
+      line-height: 4.1875rem;
+      color: #333333;
+      border-bottom: 0.8px solid #ececec;
+      margin: 0 1.875rem;
+      display: flex;
+      align-items: center;
+      .navLink {
+        width: 80%;
+      }
+      img {
+        width: 1.25rem;
+        margin-right: 1.5rem;
+      }
+      a {
+        text-decoration: none;
+        color:$other-text-color;
+      }
+    }
+    .upper{
+      margin-bottom: 3rem;
+    }
+  }
+}

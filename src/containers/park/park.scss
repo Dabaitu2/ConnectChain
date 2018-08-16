@@ -1,0 +1,199 @@
+@import "../../global.scss";
+.main {
+  vertical-align: top;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  margin-bottom: 4.5rem;
+  .searchBar {
+    position: fixed;
+    top: 0;
+    height: 2.75rem;
+    box-shadow: $navShadow;
+    background-color: #fff;
+    width:100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 999;
+    font-size: .875rem;
+    color:#333333;
+    input {
+      margin-right: 3%;
+      width: 80.267%;
+      height: 2.25rem;
+      border: none;
+      background-color: #f1f1f2;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding-left: 12%;
+      font-family: "PingFang SC";
+      font-size: .9rem;
+      line-height: 2.25rem;
+
+    }
+    input::placeholder {
+      color: #a7a7a7;
+      line-height: 2.25rem;
+    }
+    .searchIcon {
+      position: absolute;
+      left: 9%;
+      top: 27%;
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+  .content {
+    animation: fade .3s ease-in-out;
+    margin: 4rem 0;
+    margin-top: 2.75rem;
+    width: 100%;
+  }
+  .hoverBtn {
+    z-index: 9999;
+    box-sizing: border-box;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.5rem;
+    text-align: center;
+    position: fixed;
+    right: 8%;
+    bottom: 15%;
+    width: 3.5rem;
+    color: white;
+    height: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 2PX 3px 4px #8d8d8d;
+    background: #239af4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29B1FA, #1A7AED); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29B1FA, #1A7AED); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    img {
+      padding-top: 0.25rem;
+      width: 2rem;
+    }
+  }
+}
+
+
+.UsersList {
+  position: relative;
+  padding: 0 5%;
+  margin-top: .5rem;
+  height: 4.5rem;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  span:nth-child(1) {
+    display: inline-block;
+    margin-right: 0.5rem;
+    width: 3rem;
+    color: #666666;
+  }
+  span.moreUsers {
+    display: inline-block;
+    position: absolute;
+    right: 1.5rem;
+    width: 2rem;
+  }
+  ul {
+    color: #666666;
+    padding-left: 0;
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding-top: .1rem;
+    div {
+      display: inline-block;
+      li {
+        list-style: none;
+        margin: 0 0.5rem;
+        &.UserAvatar {
+          width: 2.5rem;
+          height: 2.5rem;
+          overflow: hidden;
+          border-radius: 50%;
+          img {
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+        }
+      }
+      span{
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .moreUsers {
+    img {
+      margin-top: 0.4rem;
+      height: 1rem;
+    }
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.frame {
+  width: 70%;
+  margin-top: 0.2rem;
+  overflow: hidden;
+}
+
+.noMsg {
+  padding-top: 9rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #999999;
+  img {
+    margin: .5rem;
+    width: 4rem;
+  }
+}
+
+.end {
+  text-align: center;
+  padding-bottom: .3rem;
+  font-size: 0.85rem;
+  color: #999999;
+}
+
+.showHover {
+  transition: .3s linear;
+  opacity: 1;
+  width: 3.5rem;
+  color: white;
+  height: 3.5rem;
+  img {
+    padding-top: 0.25rem;
+    width: 2rem;
+  }
+}
+
+.hideHover {
+  transition: .3s linear;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  img {
+    width: 0;
+    height: 0;
+  }
+}
