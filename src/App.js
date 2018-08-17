@@ -31,6 +31,7 @@ import {getWeb3ContractInstance} from "./contractTools/tools";
 
 import OurCoinsContract from './contracts/OurCoins.json';
 import OtherViewDetail from "./containers/questionDetail/OtherViewDetail";
+import Friends from "./containers/Friends/Friends";
 
 export const socket = io('ws://www.uchuangbang.com:80');
 
@@ -38,7 +39,7 @@ export const socket = io('ws://www.uchuangbang.com:80');
 const navInfo = [
     {
         img: "park",
-        tips: "广场",
+        tips: "首页",
     },
     {
         img: "pace",
@@ -138,6 +139,7 @@ class App extends Component {
                                         <Route component={Share} path='/share'/>
                                         <Route component={Jump} path='/jump'/>
                                         <Route component={Index} path='/test'/>
+                                        <Route component={Friends} path='/friends'/>
                                         <Route component={ERROR}/>
                                     </Switch>
                                 </CSSTransitionGroup>
@@ -156,10 +158,11 @@ class App extends Component {
                                     </div>
                                 </div>
                             </div>
-                        )
-                    }}>
+                        )                    }}>
                     </Route>
-                </div>) : <div>网页加载中，请稍等</div>}
+                </div>) :
+                    <img className={style.loading} src={require('./images/BGloading.png')} alt="loading"/>
+                }
             </BrowserRouter>
         )
     }

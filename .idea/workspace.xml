@@ -2,7 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe0c221-dc8c-4eed-a635-1c56dc6f2469" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/BG404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/BGloading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/loginArrow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/loginArrow02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/reverseBack.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/toast.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Friends/Friends.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Friends/friends.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/jump/jump.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/Mcoin.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/LoginBg.jpg" afterPath="$PROJECT_DIR$/src/images/LoginBg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/calendar.jpg" afterPath="$PROJECT_DIR$/src/images/calendar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contracts/OurCoins.sol" afterPath="$PROJECT_DIR$/contracts/OurCoins.sol" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/Graph/graph.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/Graph/graph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/Graph/graph.scss" afterPath="$PROJECT_DIR$/src/components/LIANMAI/Graph/graph.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/Marks/Marks.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/Marks/Marks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/MsgBox/Msg.scss" afterPath="$PROJECT_DIR$/src/components/LIANMAI/MsgBox/Msg.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/ParkTransferItem.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/ParkTransferItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/parkTransferItem.scss" afterPath="$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/parkTransferItem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/Toast/toast.scss" afterPath="$PROJECT_DIR$/src/components/LIANMAI/Toast/toast.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/parkItems/ParkItems.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/parkItems/ParkItems.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/parkItems/parkItems.scss" afterPath="$PROJECT_DIR$/src/components/LIANMAI/parkItems/parkItems.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.scss" afterPath="$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/response/response.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/response/response.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/response/responseItem.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/response/responseItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/response/rsItem.scss" afterPath="$PROJECT_DIR$/src/components/LIANMAI/response/rsItem.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/slideBar/slideBar.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/slideBar/slideBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/transfer/TransferItem.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/transfer/TransferItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.js" afterPath="$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.scss" afterPath="$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config/weChatShare.js" afterPath="$PROJECT_DIR$/src/config/weChatShare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Chat/Chat.js" afterPath="$PROJECT_DIR$/src/containers/Chat/Chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ERROR/ERROR.js" afterPath="$PROJECT_DIR$/src/containers/ERROR/ERROR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ERROR/error.scss" afterPath="$PROJECT_DIR$/src/containers/ERROR/error.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/UserInfo/UserInfo.js" afterPath="$PROJECT_DIR$/src/containers/UserInfo/UserInfo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/UserInfo/UserInfo.scss" afterPath="$PROJECT_DIR$/src/containers/UserInfo/UserInfo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/center/center.scss" afterPath="$PROJECT_DIR$/src/containers/center/center.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/jump/jump.js" afterPath="$PROJECT_DIR$/src/containers/jump/jump.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/my/My.js" afterPath="$PROJECT_DIR$/src/containers/my/My.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/my/my.scss" afterPath="$PROJECT_DIR$/src/containers/my/my.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/newQuestion/NewQuestion.js" afterPath="$PROJECT_DIR$/src/containers/newQuestion/NewQuestion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/pace/pace.js" afterPath="$PROJECT_DIR$/src/containers/pace/pace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/pace/pace.scss" afterPath="$PROJECT_DIR$/src/containers/pace/pace.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/park/park.js" afterPath="$PROJECT_DIR$/src/containers/park/park.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/park/park.scss" afterPath="$PROJECT_DIR$/src/containers/park/park.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.js" afterPath="$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.scss" afterPath="$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/questionDetail/QuestionDetial.scss" afterPath="$PROJECT_DIR$/src/containers/questionDetail/QuestionDetial.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/share/share.js" afterPath="$PROJECT_DIR$/src/containers/share/share.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/share/share.scss" afterPath="$PROJECT_DIR$/src/containers/share/share.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/wallet/wallet.js" afterPath="$PROJECT_DIR$/src/containers/wallet/wallet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contracts/EcommerceStore.json" afterPath="$PROJECT_DIR$/src/contracts/EcommerceStore.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contracts/Migrations.json" afterPath="$PROJECT_DIR$/src/contracts/Migrations.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contracts/OurCoins.json" afterPath="$PROJECT_DIR$/src/contracts/OurCoins.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contracts/SimpleStorage.json" afterPath="$PROJECT_DIR$/src/contracts/SimpleStorage.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contracts/Voting.json" afterPath="$PROJECT_DIR$/src/contracts/Voting.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/global.scss" afterPath="$PROJECT_DIR$/src/global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/actions.js" afterPath="$PROJECT_DIR$/src/redux/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redux/reducers.js" afterPath="$PROJECT_DIR$/src/redux/reducers.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,48 +77,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chat.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/Chat/Chat.js">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="169" column="28" lean-forward="false" selection-start-line="169" selection-start-column="28" selection-end-line="169" selection-end-column="28" />
+            <state relative-caret-position="148">
+              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding>
-                <element signature="e#75#114#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Login/Login.js">
+      <file leaf-file-name="center.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/center/center.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#75#114#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weChatShare.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/weChatShare.js">
+      <file leaf-file-name="NewQuestion.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/newQuestion/NewQuestion.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="209" column="22" lean-forward="false" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Login/login.scss">
+      <file leaf-file-name="wallet.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/wallet/wallet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="1772">
+              <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="share.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/share/share.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="232" column="103" lean-forward="false" selection-start-line="232" selection-start-column="103" selection-end-line="232" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="share.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/share/share.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2780">
+              <caret line="139" column="34" lean-forward="false" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jump.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/jump/jump.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jump.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/jump/jump.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="64" column="15" lean-forward="false" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkItems.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/parkItems/ParkItems.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="120" column="28" lean-forward="false" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkTransferItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/ParkTransferItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="134" column="43" lean-forward="false" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -76,15 +192,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MsgBox</find>
-      <find>1.8</find>
-      <find>handleCon</find>
-      <find>transfer</find>
-      <find>1.5</find>
-      <find>setTim</find>
-      <find>Preva</find>
-      <find>draw</find>
-      <find>Dr</find>
       <find>100vh</find>
       <find>Better</find>
       <find>opt</find>
@@ -98,7 +205,6 @@
       <find>ETH</find>
       <find>tags</find>
       <find>back</find>
-      <find>info</find>
       <find>compo</find>
       <find>componentWillU</find>
       <find>otherID</find>
@@ -106,6 +212,16 @@
       <find>nav</find>
       <find>calc</find>
       <find>tagTips</find>
+      <find>font-we</find>
+      <find>info</find>
+      <find>getWa</find>
+      <find>_</find>
+      <find>setState</find>
+      <find>confirm</find>
+      <find>Confirm</find>
+      <find>Char</find>
+      <find>handleC</find>
+      <find>acquire</find>
     </findStrings>
     <replaceStrings>
       <replace>location</replace>
@@ -121,57 +237,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/Radar/Radar.js" />
-        <option value="$PROJECT_DIR$/src/containers/UserInfo/UserInfo.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/myItem/myItem.js" />
-        <option value="$PROJECT_DIR$/src/containers/questionDetail/QuestionDetail.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/payModal/payModal.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/preventModal/index.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/preventModal/PrevantModal.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/preventModal/PrevantModal.scss" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.js" />
-        <option value="$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/BetterModal/betterModal.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/payModal/payModal.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/LIANMAI_tools.js" />
-        <option value="$PROJECT_DIR$/src/contractTools/tools.js" />
-        <option value="$PROJECT_DIR$/src/containers/wallet/wallet.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/ConfirmModal/ConfirmModal.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/Marks/marks.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/ConfirmModal/ConfirmModal.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Chat/Chat.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/Marks/Marks.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/ParkTransferItem.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/parkItems/ParkItems.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/containers/pace/pace.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/Toast/toast.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/TipsModal/TipsModal.scss" />
-        <option value="$PROJECT_DIR$/src/containers/my/My.js" />
-        <option value="$PROJECT_DIR$/src/containers/wallet/wallet.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/Modal/modal.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/Modal/modal.js" />
-        <option value="$PROJECT_DIR$/src/containers/newQuestion/NewQuestion.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/parkTransferItem.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/parkItems/parkItems.scss" />
-        <option value="$PROJECT_DIR$/src/containers/my/my.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Chat/Chat.js" />
-        <option value="$PROJECT_DIR$/src/containers/park/park.scss" />
-        <option value="$PROJECT_DIR$/src/containers/park/park.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/parkTab.scss" />
-        <option value="$PROJECT_DIR$/src/containers/pace/pace.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/response/response.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/publish/publish.js" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/response/rsItem.scss" />
-        <option value="$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.scss" />
         <option value="$PROJECT_DIR$/src/containers/newQuestion/newQuesion.scss" />
-        <option value="$PROJECT_DIR$/src/global.scss" />
         <option value="$PROJECT_DIR$/src/containers/Login/login.scss" />
         <option value="$PROJECT_DIR$/src/containers/Login/Login.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/Graph/graph.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/slideBar/slideBar.scss" />
+        <option value="$PROJECT_DIR$/src/containers/pace/pace.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.scss" />
+        <option value="$PROJECT_DIR$/src/global.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/Marks/Marks.js" />
+        <option value="$PROJECT_DIR$/src/containers/ERROR/ERROR.js" />
+        <option value="$PROJECT_DIR$/src/containers/ERROR/error.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/transfer/TransferItem.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/response/responseItem.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/response/rsItem.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/parkItems/parkItems.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/parkTransferItem.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/Graph/graph.scss" />
+        <option value="$PROJECT_DIR$/src/containers/questionDetail/QuestionDetial.scss" />
+        <option value="$PROJECT_DIR$/src/containers/pace/pace.js" />
+        <option value="$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Friends/friends.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Friends/Friends.js" />
+        <option value="$PROJECT_DIR$/src/redux/actions.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers.js" />
+        <option value="$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/Toast/toast.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/MsgBox/Msg.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Chat/Chat.js" />
+        <option value="$PROJECT_DIR$/src/config/weChatShare.js" />
+        <option value="$PROJECT_DIR$/src/containers/share/share.js" />
+        <option value="$PROJECT_DIR$/src/containers/UserInfo/UserInfo.scss" />
+        <option value="$PROJECT_DIR$/src/containers/UserInfo/UserInfo.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/response/response.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/slideBar/slideBar.js" />
+        <option value="$PROJECT_DIR$/src/containers/park/park.scss" />
+        <option value="$PROJECT_DIR$/src/containers/my/My.js" />
+        <option value="$PROJECT_DIR$/src/containers/park/park.js" />
+        <option value="$PROJECT_DIR$/src/containers/center/center.scss" />
+        <option value="$PROJECT_DIR$/src/containers/newQuestion/NewQuestion.js" />
+        <option value="$PROJECT_DIR$/src/containers/my/my.scss" />
+        <option value="$PROJECT_DIR$/src/containers/share/share.scss" />
+        <option value="$PROJECT_DIR$/src/containers/jump/jump.js" />
+        <option value="$PROJECT_DIR$/src/containers/jump/jump.scss" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/parkItems/ParkItems.js" />
+        <option value="$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/ParkTransferItem.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/containers/wallet/wallet.js" />
       </list>
     </option>
   </component>
@@ -194,9 +310,9 @@
     <handled-path value="$PROJECT_DIR$/coinWallet/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="226" />
-    <option name="y" value="68" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-202" />
+    <option name="y" value="126" />
     <option name="width" value="1712" />
     <option name="height" value="1756" />
   </component>
@@ -216,8 +332,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +355,66 @@
               <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
               <item name="our_coins" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LIANMAI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="share" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="UserInfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contractTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="our_coins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="our_coins" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,22 +435,22 @@
     <property name="javascript.nodejs.core.library.configured.version" value="10.5.0" />
     <property name="add_unversioned_files" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="SearchEverywhereHistoryKey" value="newQ&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/newQuestion/NewQuestion.js&#10;share&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/share/share.js&#10;get&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/utils/getWeb3.js" />
+    <property name="SearchEverywhereHistoryKey" value="share&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/share/share.scss&#10;par&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/ParkTransferItem/ParkTransferItem.js&#10;park&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/parkItems/ParkItems.js&#10;App&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/App.js&#10;jump&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/jump/jump.js&#10;jum&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/jump/jump.scss&#10;sha&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/share/share.scss&#10;wallet&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/wallet/wallet.js&#10;wa&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/wallet/wallet.js&#10;newQ&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/newQuestion/NewQuestion.js&#10;Search&#9;null&#9;null&#10;sear&#9;null&#9;null&#10;my&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/my/My.js&#10;slid&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/slideBar/slideBar.js&#10;trans&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/transfer/transfer.js&#10;resp&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/response/response.js&#10;publ&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/publish/publish.js&#10;image&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/images/add_image.png&#10;weC&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/config/weChatShare.js&#10;transf&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/transfer/transfer.js&#10;Publ&#9;null&#9;null&#10;P&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/publish/publishItem.scss&#10;Pub&#9;null&#9;null&#10;slide&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/slideBar/slideBar.js&#10;pace&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/pace/pace.js&#10;wall&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/wallet/wallet.js&#10;gr&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/Graph/graph.scss&#10;gra&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/Graph/graph.js&#10;mar&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/Marks/Marks.js&#10;rsI&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/components/LIANMAI/response/rsItem.scss&#10;walle&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/containers/wallet/wallet.scss&#10;get&#9;FILE&#9;file://D:/project/OurCoin/our_coins/src/utils/getWeb3.js" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\OurCoin\our_coins\src\images" />
-      <recent name="D:\project\OurCoin\our_coins\src\containers\shops" />
-      <recent name="D:\project\OurCoin\our_coins\src\containers\Index" />
-      <recent name="D:\project\OurCoin\our_coins\src\containers\questionDetail" />
-      <recent name="D:\project\OurCoin\our_coins\src\containers\park" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\OurCoin\our_coins\src\images" />
       <recent name="D:\project\OurCoin\our_coins\coinWallet\build" />
       <recent name="D:\project\OurCoin\our_coins\src\components\LIANMAI\ConfirmModal" />
       <recent name="D:\project\OurCoin\our_coins\src" />
       <recent name="D:\project\OurCoin\our_coins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\OurCoin\our_coins\src\images" />
+      <recent name="D:\project\OurCoin\our_coins\src\containers\shops" />
+      <recent name="D:\project\OurCoin\our_coins\src\containers\Index" />
+      <recent name="D:\project\OurCoin\our_coins\src\containers\questionDetail" />
+      <recent name="D:\project\OurCoin\our_coins\src\containers\park" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -350,12 +525,14 @@
       <workItem from="1534295591289" duration="36620000" />
       <workItem from="1534347981207" duration="5062000" />
       <workItem from="1534381522853" duration="22986000" />
-      <workItem from="1534410228520" duration="1677000" />
+      <workItem from="1534410228520" duration="19672000" />
+      <workItem from="1534434329007" duration="11115000" />
+      <workItem from="1534470950481" duration="18653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="920399000" />
+    <option name="totallyTimeSpent" value="968162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,17 +544,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
+    <frame x="-101" y="63" width="856" height="878" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21056548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328877" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2881563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32533333" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3315508" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18218623" sideWeight="0.49702382" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="RNConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -432,283 +610,112 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/containers/jump/jump.js</url>
-          <line>28</line>
+          <line>29</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/ParkTransferItem.js</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="59" />
+      <option name="time" value="61" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/my/my.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/Graph/graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="457">
+          <caret line="127" column="6" lean-forward="true" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/parkItems/parkItems.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/Graph/graph.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="126" column="15" lean-forward="true" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
+        <state relative-caret-position="140">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/Modal/modal.scss">
+    <entry file="file://$PROJECT_DIR$/src/containers/questionDetail/QuestionDetial.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/parkItems/ParkItems.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2597">
-          <caret line="145" column="75" lean-forward="false" selection-start-line="145" selection-start-column="75" selection-end-line="145" selection-end-column="75" />
+        <state relative-caret-position="181">
+          <caret line="135" column="31" lean-forward="false" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Chat/Chat.scss">
+    <entry file="file://$PROJECT_DIR$/src/containers/Friends/friends.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="1200">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/Slider/slider.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/wallet/wallet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Animate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/throttle-debounce/throttle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/park/park.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/park/park.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="366" column="66" lean-forward="false" selection-start-line="366" selection-start-column="66" selection-end-line="366" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/parkTab.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/slideBar/slideBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/pace/pace.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="96" column="18" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="96" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/response/response.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/publish/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="69" lean-forward="false" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="78" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/response/rsItem.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="84" column="3" lean-forward="false" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="74" column="3" lean-forward="true" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/web3Config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/axiosConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HOC_Form/HOC_Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ERROR/ERROR.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/my/My.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/polyfills.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="227" column="34" lean-forward="true" selection-start-line="227" selection-start-column="34" selection-end-line="227" selection-end-column="34" />
+        <state relative-caret-position="20">
+          <caret line="185" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="316" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/center/center.js">
+    <entry file="file://$PROJECT_DIR$/src/redux/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="-2394">
+          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/center/center.scss">
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Friends/Friends.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
+          <folding>
+            <element signature="e#75#114#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/questionDetail/QuestionDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/newQuestion/NewQuestion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3665">
-          <caret line="272" column="71" lean-forward="false" selection-start-line="272" selection-start-column="71" selection-end-line="272" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/1_initial_migration.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/2_deploy_contracts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/newQuestion/newQuesion.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddProduct/AddProduct.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-664">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
+        <state relative-caret-position="976">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/questionDetail/OtherViewDetail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/LIANMAI_tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1600">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
@@ -718,114 +725,318 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contractTools/tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3984">
-          <caret line="315" column="30" lean-forward="false" selection-start-line="315" selection-start-column="30" selection-end-line="315" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="6220">
+          <caret line="312" column="43" lean-forward="false" selection-start-line="312" selection-start-column="43" selection-end-line="312" selection-end-column="43" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers.js">
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/Toast/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1844">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/Toast/Toast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/Toast/toast.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/TipsModal/TipsModal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-768">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/TipsModal/TipsModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Index/Index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2396">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/OurCoins.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/getWeb3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/dates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/GraphTools.js">
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/MsgBox/Msg.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Login/login.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/weChatShare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Login/Login.js">
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/MsgBox/Msg.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#75#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Chat/Chat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="169" column="28" lean-forward="false" selection-start-line="169" selection-start-column="28" selection-end-line="169" selection-end-column="28" />
+        <state relative-caret-position="1593">
+          <caret line="315" column="21" lean-forward="true" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/pace/pace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="112" column="25" lean-forward="false" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding>
-            <element signature="e#75#114#0" expanded="true" />
+            <element signature="e#75#114#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/publish/publishItem.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/add_image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/weChatShare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1306">
+          <caret line="135" column="25" lean-forward="false" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/UserInfo/UserInfo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="143" column="29" lean-forward="false" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/LoginBg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/UserInfo/UserInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="180" column="40" lean-forward="false" selection-start-line="180" selection-start-column="40" selection-end-line="180" selection-end-column="40" />
+          <folding>
+            <element signature="e#75#114#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/publish/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/slideBar/slideBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/transfer/transfer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/response/response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/response/rsItem.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="87" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/antd-mobile/lib/search-bar/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/park/park.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="347" column="41" lean-forward="false" selection-start-line="347" selection-start-column="41" selection-end-line="347" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#75#114#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/BG404.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/BGloading.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/park/park.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/my/My.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="85" column="48" lean-forward="false" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/my/my.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/newQuestion/NewQuestion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="209" column="22" lean-forward="false" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/jump/jump.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/center/center.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/jump/jump.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="64" column="15" lean-forward="false" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/parkItems/ParkItems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="120" column="28" lean-forward="false" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LIANMAI/ParkTransferItem/ParkTransferItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="134" column="43" lean-forward="false" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/share/share.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2780">
+          <caret line="139" column="34" lean-forward="false" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/share/share.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="232" column="103" lean-forward="false" selection-start-line="232" selection-start-column="103" selection-end-line="232" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/wallet/wallet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1772">
+          <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

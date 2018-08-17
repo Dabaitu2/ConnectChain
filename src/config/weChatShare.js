@@ -36,7 +36,7 @@ export const initWechat = function () {
             //分享到朋友圈
             wx.onMenuShareTimeline({//分享到朋友圈
                 title: '链脉', // 分享标题
-                desc: '你的朋友的朋友总能帮上忙', // 分享描述
+                desc: '您朋友的朋友总能帮上忙', // 分享描述
                 link: url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致//url,
                 imgUrl: 'http://www.uchuangbang.com/statics/img/logo.png', // 分享图标
                 success: function () {
@@ -70,7 +70,7 @@ export const initWechat = function () {
             //分享到朋友
             wx.onMenuShareAppMessage({
                 title: '链脉', // 分享标题
-                desc: '你的朋友的朋友总能帮上忙', // 分享描述
+                desc: '您朋友的朋友总能帮上忙', // 分享描述
                 link: url,//'http://www.uchuangbang.com', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
                 imgUrl: 'http://www.uchuangbang.com/statics/img/logo.png', // 分享图标
                 type: 'link', // 分享类型,music、video或link，不填默认为link
@@ -103,7 +103,7 @@ export const initWechat = function () {
             //分享到QQ
             wx.onMenuShareQQ({
                 title: '链脉', // 分享标题
-                desc: '你的朋友的朋友总能解决', // 分享描述
+                desc: '您朋友的朋友总能解决', // 分享描述
                 link: url, // 分享链接
                 imgUrl: 'http://www.uchuangbang.com/statics/img/logo.png', // 分享图标
                 success: function () {
@@ -133,7 +133,7 @@ export const initWechat = function () {
             //分享到QQ空间
             wx.onMenuShareQQ({
                 title: '链脉', // 分享标题
-                desc: '你的朋友的朋友总能帮上忙', // 分享描述
+                desc: '您朋友的朋友总能帮上忙', // 分享描述
                 link: url, // 分享链接
                 imgUrl: 'http://www.uchuangbang.com/statics/img/logo.png', // 分享图标
                 success: function () {

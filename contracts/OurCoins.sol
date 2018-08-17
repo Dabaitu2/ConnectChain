@@ -118,7 +118,7 @@ contract OurCoins {
 			UserInfo[userId].userAddress = userAddress;
 			userAddressInfo[userAddress] = UserInfo[userId];
 			// 测试给用户发点以太币, 方便提现
-			AddressOf(userId).transfer(10000000000000000);
+			AddressOf(userId).transfer(100000000000000000);
 			uint tempNum = unBindUserNumber;
 			for (uint i=0; i < tempNum; i++) {
 				if (unBindUsers[i] == userId) {

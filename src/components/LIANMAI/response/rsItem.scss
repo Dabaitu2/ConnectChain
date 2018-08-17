@@ -1,21 +1,23 @@
 @import '../../../global.scss';
 
 .item {
-  margin: 0.5rem 0.8rem;
+  margin-bottom: .5rem;
   border-radius: 3px;
   background-color: #fff;
   padding: 1.1rem 0.6rem;
   padding-bottom: 0.5rem;
-  box-shadow: 0 0 10px #e3e3e3;
   position: relative;
   //box-shadow: 0 0 3px #dddddd;
+  box-shadow: 0 1px 2px #d9d9d9;
   h4, h5{
     margin: 0;
     font-weight: normal;
     margin-bottom: 0.8rem;
   }
   h4{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
   }
   h5 {
     font-weight: 400;
@@ -26,10 +28,10 @@
 
 .timeInfo {
   font-size: 0.8rem;
-  height: 1.5rem;
-  line-height: 1.5rem;
-  color: $other-text-color;
-  font-weight: 300;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  color: #3c3c3c;
+  font-weight: 400;
   display: flex;
   align-items: center;
   img {
@@ -83,5 +85,12 @@
   h4 {
     font-weight: 300 !important;
   }
+}
+
+.GotChoosen {
+  position: absolute;
+  right: 1.6rem;
+  top: 3.5rem;
+  width: 1.5rem;
 }
 

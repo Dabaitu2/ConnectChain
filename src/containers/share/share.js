@@ -12,6 +12,9 @@ import {connect} from "react-redux";
 import {logID, registUrl} from "../../redux/actions";
 import Cookies from 'js-cookie';
 import {initWechat} from "../../config/weChatShare";
+import _ from "lodash";
+import Toast from "../../components/LIANMAI/Toast/Toast";
+import ToastBox from "../../components/LIANMAI/Toast/index";
 
 
 const Info = {
@@ -34,6 +37,7 @@ class Share extends Component {
         this.state = {
             info: Info,
             qid: 0,
+            showToast: false
         }
     }
 
@@ -63,9 +67,10 @@ class Share extends Component {
             let info = {};
             info.imgUrl = res.data[1][0].figureurl;
             info.id = res.data[0].questionID; // 问题的ID
+            info.title = res.data[0].title;
             info.detail = content;
             info.username = nickname;
-            console.log(imgList);
+            imgList = _.uniq([...imgList.slice(0, 2), ...imgList.slice(-2)]);
             this.setState({
                 imgList: imgList.slice(0),
                 info: info,
@@ -146,6 +151,14 @@ class Share extends Component {
     render() {
         return (
             <div className={style.main}>
+                {this.state.showToast ?
+                <img src={require('../../images/toast.jpg')}
+                     alt="toast"
+                     style={{
+                         transition: ".3s linear"
+                     }}
+                     className={style.toast}/> : ""
+                }
                 <div className={style.head}>
                     <div className={style.left}>
                         <div className={style.avatar}>
@@ -153,10 +166,11 @@ class Share extends Component {
                                 src={this.state.info.imgUrl}
                                 alt="imgUrl"/>
                         </div>
+                        <h3>{this.state.info.username}</h3>
                     </div>
                     <div className={style.right}>
-                        <h3>{this.state.info.username}</h3>
                         <div>
+                            <span>{this.state.info.title}</span>
                             {this.state.info.detail}
                         </div>
                     </div>
@@ -165,23 +179,16 @@ class Share extends Component {
                     {this.state.imgList ?
                         <Graph imgList={this.state.imgList}/> : ""}
                 </div>
-                <img
-                    src={require("../../images/jumpBack.jpg")}
-                    width={80}
-                    onTouchStart={() => {
-                        this.props.history.push({
-                            pathname: `/center/my`,
-                            query: {
-                                ID: this.props.id
-                            }
-                        });
-                    }}
-                    className={style.goBack}
-                     />
                 <div className={style.bottom}>
                     <div className={style.answer}>
                         <span
                             onTouchStart={() => {
+                                if(this.props.id == this.state.quizzer) {
+                                    ToastBox.warning({
+                                        content:"您无法自问自答!"
+                                    });
+                                    return;
+                                }
                                 this.props.history.push({
                                     pathname: `/Chat`,
                                     query: {
@@ -193,15 +200,37 @@ class Share extends Component {
                                 })
                             }}>
                             我来解答
-                            <img src={require('../../images/answer.png')} alt="ans"/>
                         </span>
                     </div>
-                    <div className={style.transfer}>
+                    <div className={style.transfer} onClick={()=>{
+                        this.setState({
+                            showToast: true
+                        },()=>{
+                            setTimeout(()=>{
+                                this.setState({
+                                    showToast: false
+                                })
+                            }, 4000)
+                        })
+                    }}>
                         <span>
                             帮忙转发
-                            <img src={require('../../images/transfer.png')} alt="trans"/>
                         </span>
                     </div>
+                </div>
+                <div
+                    onTouchStart={() => {
+                        this.props.history.push({
+                            pathname: `/center/my`,
+                            query: {
+                                ID: this.props.id
+                            }
+                        });
+                    }}
+                    className={style.goBack}
+                ><img src={require('../../images/loginArrow.jpg')} alt="arrow"/>
+                    <span>首页</span>
+                    <img src={require('../../images/loginArrow02.jpg')} alt="arrow" className={style.rotateArrow}/>
                 </div>
             </div>
         );

@@ -1,0 +1,69 @@
+@import "../../global.scss";
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  vertical-align: top;
+  position: absolute;
+  background: #f2f2f2;
+  padding-bottom: 1rem;
+  .nav {
+    padding-left: 3%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    .back {
+      display: flex;
+      width: 6rem;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        //width: 2rem;
+        height: 1.2rem;
+      }
+      span {
+        font-size: 1.1rem;
+        color: #5a5a5a;
+      }
+    }
+  }
+  .content {
+    background-color: white;
+    ul{
+      padding-left: 10px;
+      li {
+        list-style: none;
+        border-bottom: .5px solid #c1c1c1;
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        .avatar {
+          width: 2rem;
+          height: 2rem;
+          overflow: hidden;
+          border-radius: 50%;
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
+        }
+        span {
+          color: #666666;
+          font-size: 1rem;
+          margin-left: 1rem;
+        }
+        div.seeMore {
+          margin-right: 1rem;
+          flex-grow: 1;
+          display: flex;
+          flex-direction: row-reverse;
+          img {
+            height: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

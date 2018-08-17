@@ -165,7 +165,7 @@ class NewQuestion extends Component {
 
     async acquireAccount(web3, id, pwd) {
         let modal = PrevantModalBox.show();
-        let account      = await getLocalPrivateKey(web3, pwd, id);
+        let account      = await getLocalPrivateKey(web3, pwd, id, this.props.address);
         if (account) {
             this.setState({
                 privateKey: account.privateKey,
@@ -374,7 +374,7 @@ class NewQuestion extends Component {
                          onTouchStart={()=>{this.handleTouchChange.bind(this)();}}>
                         <img
                             alt = "coins"
-                            src = {require('../../images/Mcoin.png')}
+                            src = {require('../../images/mcoin.jpg')}
                             className = {style.mainImg}
                         />
                         M币: <span className={`sub-color ${style.requireInfo}`}>{choose}个</span>

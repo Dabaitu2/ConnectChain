@@ -12,7 +12,7 @@
 
   .header {
     height: 2rem;
-    padding: 1.125rem;
+    padding: 1rem;
     padding-bottom: 0;
     display: flex;
     justify-content: space-between;
@@ -99,16 +99,16 @@
     overflow: hidden;
     position: relative;
     h3 {
-      font-size: .875rem;
+      font-size: calc(15 / 16 * 1rem);
       line-height: 1.4rem;
       margin: .5rem auto;
-      font-weight: 600;
-      color: #333333;
+      color: #626262;
+      font-weight: bold;
     }
     .details {
       color: #969696;
       line-height: 1.5rem;
-      font-size: calc(13 / 16 * 1rem);
+      font-size: calc(14 / 16 * 1rem);
     }
   }
   .content.limitHeight{
@@ -138,7 +138,7 @@
         line-height: 1.6875rem;
         display: flex;
         align-items: center;
-        margin-right: 1.125rem;
+        margin-left: 1.125rem;
       }
       img {
         height: 1rem;
@@ -147,11 +147,12 @@
       span.response {
         border: 1px solid #cfcfcf;
         border-radius: 2px;
+        margin-left: 1rem;
       }
       span.transfer {;
         border: 1px solid #cfcfcf;
         border-radius: 2px;
-        margin-left: 1rem;
+        margin-right: 0;
       }
     }
   }

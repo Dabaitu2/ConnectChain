@@ -25,6 +25,9 @@ export const SAVE_USERNAME  = 'SAVE_USERNAME';
 export const LOG_UNREAD     = 'LOG_UNREAD';
 export const CLEAR_UNREAD   = 'CLEAR_UNREAD';
 
+
+export const LOG_ADDRESS    = 'LOG_ADDRESS';
+
 // 记录当前查看的问题状态，用来控制聊天窗口采纳通道的开关
 export const LOG_STATUS     = "LOG_STATUS";
 export const CLEAR_STATUS   = "CLEAR_STATUS";
@@ -35,6 +38,9 @@ export const SAVE_MARKS     = 'SAVE_MARKS';
 export const CLEAR_MARKS    = 'CLEAR_MARKS';
 export const SAVE_TAG       = 'SAVE_TAG';
 export const CLEAR_TAG      = 'CLEAR_TAG';
+
+export const SET_QUESTION_QUERY   = 'SET_QUESTION_QUERY';
+export const CLEAR_QUESTION_QUERY = 'CLEAR_QUESTION_QUERY';
 
 
 
@@ -151,4 +157,18 @@ export function registUrl(url) {
 // 记录ID
 export function logID(ID) {
     return {type: LOG_ID, id: ID}
+}
+
+// 记录跳转到otherquestion的Query
+export function setOtherQuery(query) {
+    return {type: SET_QUESTION_QUERY, query: query}
+}
+
+// 删除跳转到otherquestion的Query
+export function clearOtherQuery() {
+    return {type: CLEAR_QUESTION_QUERY}
+}
+
+export function log_address(address) {
+    return {type: LOG_ADDRESS, address: address}
 }

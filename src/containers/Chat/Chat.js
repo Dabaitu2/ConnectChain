@@ -308,7 +308,12 @@ class Chat extends Component {
                 quizzerID: quizzerId,
                 sourceID: sourceId
             }).then((res) => {
-                if (res.data.ans === 'success') {
+                if (res.data.ans != 'failure') {
+                    if(res.data.ans === "NotOnChain") {
+                        ToastBox.warning({
+                            content: "该回答已结束，您的操作将无法上链"
+                        })
+                    }
                     let dialogueID = res.data.dialogueID;
                     instance.post('/dialogue/getEachID', {dialogueID: dialogueID}).then((res) => {
                         if (res.data[0].nickname && res.data[1].nickname) {

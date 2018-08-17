@@ -2,13 +2,14 @@
 .item {
   //margin: 0.5rem 0.8rem;
   margin: 0;
+  margin-bottom: .5rem;
+  box-shadow: 0 1px 2px #dadada;
   //border-radius: 3px;
   background-color: #fff;
   padding: 1.1rem 1.5rem;
   padding-bottom: .6rem;
   padding-left: .9rem;
   position: relative;
-  border-bottom: .5px solid #eae9e9;
   //box-shadow: 0 0 10px #e3e3e3;
   h4, h5{
     margin: 0;
@@ -16,25 +17,28 @@
     margin-bottom: 0.8rem;
   }
   h4{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3c3c3c;
   }
   h5 {
     font-weight: 400;
     color: $sub-text-color;
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
 }
 
 .assistList {
   //margin-top: 3.1rem;
-  margin-top: 1rem;
+  margin-top: 1.375rem;
   display: flex;
   justify-content: space-between;
   font-size: .8rem;
-  flood-color: $sub-text-color;
-  font-weight: 300;
-  padding-left: 2.3rem;
+  line-height: .8rem;
+  color: $sub-text-color;
+  font-weight: 400;
+  margin-bottom: .4rem;
 }
 
 .left {
@@ -76,4 +80,11 @@
   h4 {
     font-weight: 300 !important;
   }
+}
+
+.assistText:nth-child(1) {
+  margin-right: .5rem;
+}
+.assistTextRight {
+  margin-left: .5rem;
 }

@@ -89,6 +89,7 @@
             height: 1.4rem;
           }
           a {
+            padding-left: 4rem;
             text-decoration: none;
             color: $other-text-color;
           }
@@ -105,13 +106,13 @@
     .navItem {
       height: 4.1875rem;
       font-weight: 400;
-      font-size: 0.9375rem;
+      font-size: 1rem;
       line-height: 4.1875rem;
-      color: #333333;
       border-bottom: 0.8px solid #ececec;
       margin: 0 1.875rem;
       display: flex;
       align-items: center;
+      color:$other-text-color;
       .navLink {
         width: 80%;
       }

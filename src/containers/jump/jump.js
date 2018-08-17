@@ -8,6 +8,7 @@ import Cookies from 'js-cookie';
 import {withRouter} from "react-router-dom";
 import {logID} from "../../redux/actions";
 import {connect} from "react-redux";
+import style from './jump.scss';
 
 @connect(
     state => state.user,
@@ -67,10 +68,7 @@ class Jump extends Component {
 
     render() {
         return (
-            <div>
-                正在跳转到之前页面: {this.state.url}
-                cookie的ID {window.location.search.split("ID=")[1]}
-            </div>
+                <img src={require('../../images/BGloading.png')} className={style.main} alt="loading"/>
         );
     }
 }

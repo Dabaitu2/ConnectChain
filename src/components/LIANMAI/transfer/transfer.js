@@ -9,30 +9,6 @@ import TransferItem from "./TransferItem";
 import {instance} from '../../../config/axiosConfig'
 import {connect} from "react-redux";
 
-
-const TestInfo = [
-    {
-        id: 1,
-        username: "阿圆不长胖",
-        title : "有谁在综C捡到了我的身份证吗？ 马上要买票了,求扩散啊!",
-        endTime: new Date('2018','6','28').getTime(),
-        lastChatTime: new Date(new Date().getTime() - 3600*1000),
-        hasNews: true,
-        hasFinished: false,
-        status: "success",
-    },
-    {
-        id: 2,
-        username: "EVAN",
-        title : "因为临时有事要加班，五月后天的演唱会去不了了，门票急转，小哥哥小姐姐帮帮忙!",
-        endTime: new Date('2018','6','28').getTime(),
-        lastChatTime: new Date(new Date().getTime() - 3600*1000),
-        hasNews: false,
-        hasFinished: true,
-        status: "inProgress",
-    }
-];
-
 @connect(
     state => state.user
 )
@@ -71,7 +47,8 @@ class Transfer extends Component {
                             endTime: new Date('2018','6','28').getTime(),
                             status: v.stauts === 0 ? "failed" : v.status === 1 ? "inProgress" : "success",
                             imgUrl: v.figureurl,
-                            link: v.link
+                            link: v.link,
+                            forwardTime: v.forwardTime
                         };
                         info.push(temp);
                     }

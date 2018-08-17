@@ -319,12 +319,19 @@ class Park extends Component {
         let {info}    = this.state;
         return (
             <div className={style.content}>
-                {info.map(v=>(
+                {info.length> 0 ? info.map(v=>(
                     v.type === 0 ?
                         <ParkItems key={"timeline"+v.questionID} info={v} /> : v.name != v.forwarder ?
                         <ParkTransferItem key={"timeTransline"+v.questionID} info={v} /> : null
-                ))}
-                <div className={style.end}>没有更多消息了</div>
+                    )) : <div className={style.empty} >
+                        <img src={require('../../images/empty.png')} alt="没有数据"/>
+                        <h4>啥都没有</h4>
+                    </div>
+                }
+                {
+                    info.length > 0 ? <div className={style.end}>没有更多消息了</div> : <div/>
+                }
+
             </div>
         )
     };
@@ -343,12 +350,16 @@ class Park extends Component {
                                })
                            }}
                            ref={'search'}
-                           placeholder={'试试搜索标签吧'}/>
+                           placeholder={'搜索关键字'}/>
                     <img src={require('../../images/search.png')}
                          onClick={this.handleIconSearch.bind(this)}
                          className={style.searchIcon}
                          alt="search"/>
-                    <span onClick={()=>{
+                    <span
+                        style={{
+                            color: "#999999"
+                        }}
+                        onClick={()=>{
                         this.handleSearchClick.bind(this)();
                     }}>{tips}</span>
                 </div>

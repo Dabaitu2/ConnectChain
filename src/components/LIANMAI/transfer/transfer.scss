@@ -1,27 +1,31 @@
 @import "../../../global.scss";
 .item {
   //margin: 0.5rem 0.8rem;
-  margin: 0;
+  margin-bottom: .5rem;
   //border-radius: 3px;
   background-color: #fff;
   border-bottom: .5px solid #e1e1e1;
   padding: 1.1rem .7rem;
   padding-bottom: 1rem;
   position: relative;
+  box-shadow: 0 1px 2px #dadada;
+
   //box-shadow: 0 0 10px #e3e3e3;
 
   h4, h5{
     margin: 0;
     font-weight: normal;
-    margin-bottom: 0.8rem;
+    margin-bottom: .85rem;
+    color: #333333;
   }
   h4{
     font-size: 1rem;
+    font-weight: bold;
   }
   h5 {
     font-weight: 400;
     color: $sub-text-color;
-    font-size: .8rem;
+    font-size: .9rem;
   }
   img {
     width: 1.2rem;
@@ -30,12 +34,11 @@
 
 .assistList {
   //margin-top: 2.35rem;
-  margin-top: .35rem;
+  //margin-top: .35rem;
   display: flex;
   justify-content: space-between;
-  font-size: 1rem;
-  flood-color: $sub-text-color;
-  font-weight: 300;
+  font-size: .875rem;
+  font-weight: 400;
   align-items: center;
 }
 
@@ -43,6 +46,7 @@
   margin-right: 1rem;
   display: flex;
   align-items: center;
+  color: #666666;
 }
 
 .right {
@@ -76,6 +80,16 @@
   }
   h4 {
     font-weight: 300 !important;
+  }
+
+}
+
+.transferTime {
+  display: flex;
+  align-items: center;
+  color: #666666;
+  img {
+    margin-left: .5rem;
   }
 }
 

@@ -115,33 +115,33 @@ class Graph extends Component {
                 return;
             }
 
-            ctx.closePath();
-            ctx.save();
-            ctx.moveTo(500, 75);
-            ctx.lineTo(545, 185);
-            this.setCanvasStyle(ctx);
 
-            circleImg(ctx, src[4], 520, 160, 25);
-            if (--n <= 0) {
-                this.finishLastCircle(ctx)
-            }
 
         }
 
     };
-
+    // ctx.closePath();
+    // ctx.save();
+    // ctx.moveTo(500, 75);
+    // ctx.lineTo(545, 185);
+    // this.setCanvasStyle(ctx);
+    //
+    // circleImg(ctx, src[4], 520, 160, 25);
+    // if (--n <= 0) {
+    //     this.finishLastCircle(ctx)
+    // }
     // 完成最后一个圈
     finishLastCircle = (ctx) => {
         ctx.shadowBlur = 5;
         ctx.shadowColor="#a7a7a7";
         ctx.closePath();
-        ctx.strokeStyle = "#ff7c74";
+        ctx.strokeStyle = "#3fa4ff";
         ctx.lineWidth = 4;
         ctx.stroke();
     };
 
     setCanvasStyle = (ctx) => {
-        ctx.strokeStyle = "#ff7c74";
+        ctx.strokeStyle = "#3fa4ff";
         ctx.lineWidth = 4;
         ctx.shadowBlur = 5 ;
         ctx.shadowColor="#c4c4c4";

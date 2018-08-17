@@ -6,6 +6,7 @@
 import React, {Component} from 'react';
 import style from './transfer.scss';
 import {withRouter} from "react-router-dom";
+import {transferNormal, transferTZ} from "../../../utils/dates";
 
 
 const srcList  = [
@@ -64,7 +65,10 @@ class TransferItem extends Component {
                     </div>
                     <span>{info.username}</span>
                 </div>
-                    <img src={statusSrc} alt="logo"/>
+                    <div className={style.transferTime}>
+                        <span>转发于{transferNormal(transferTZ(info.forwardTime))}</span>
+                        <img src={statusSrc} alt="logo"/>
+                    </div>
                 </div>
             </div>
         );

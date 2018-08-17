@@ -68,3 +68,17 @@
   opacity: 0.01;
   transition: opacity 400ms ease-in;
 }
+
+
+.loading {
+  vertical-align: top;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  border: none;
+  //background-color: #fff;
+
+}

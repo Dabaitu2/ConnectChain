@@ -9,12 +9,12 @@ import {SecondToDateBlur} from "../../../utils/dates";
 import {withRouter} from "react-router-dom";
 import {connect} from "react-redux";
 import ToastBox from "../Toast/index";
-import {log_status} from "../../../redux/actions";
+import {log_status, setOtherQuery} from "../../../redux/actions";
 
 @withRouter
 @connect(
     state => state.user,
-    {log_status}
+    {log_status, setOtherQuery}
 )
 class ParkTransferItem extends Component {
     constructor(props) {
@@ -64,14 +64,14 @@ class ParkTransferItem extends Component {
         return (
             <div className={style.main}
                  onClick={()=>{
+                     this.props.setOtherQuery({
+                         tags: info.tags,
+                         previousID: info.previousID,
+                         transferQuery: this.state.transferQuery,
+                         ansQuery: this.state.ansQuery
+                     });
                      this.props.history.push({
-                         pathname:`/otherViewDetail/${info.questionID}`,
-                         query:{
-                             tags:info.tags,
-                             previousID: info.previousID,
-                             transferQuery: this.state.transferQuery,
-                             ansQuery: this.state.ansQuery
-                         }
+                         pathname: `/otherViewDetail/${info.questionID}`,
                      })
                  }}
             >
@@ -122,7 +122,7 @@ class ParkTransferItem extends Component {
                 <div className={style.bottom}>
                     <span className={style.tips}>
                     <img
-                        src={require("../../../images/mcoin.jpg")}
+                        src={require("../../../images/mcoin.png")}
                         style={{
                             height: "1.2rem",
                             marginRight: "0.3rem"

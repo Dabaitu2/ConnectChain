@@ -6,7 +6,8 @@
 import {
     AUTH_SUCCESS, CHANGE_PATH, ERROR_MSG, INIT_CONTRACT_INSTANCE, INIT_WEB3, LOAD_DATA, LOGOUT,
     MSG_READ, MSG_RECV, MSG_LIST, SAVE_SCROLL, REGIST_URL, LOG_ID, CONFIRM_ADDRESS_STATE, SAVE_MARKS, CLEAR_MARKS,
-    SAVE_TAG, CLEAR_TAG, LOG_STATUS, CLEAR_STATUS, SAVE_USERNAME, LOG_UNREAD, CLEAR_UNREAD
+    SAVE_TAG, CLEAR_TAG, LOG_STATUS, CLEAR_STATUS, SAVE_USERNAME, LOG_UNREAD, CLEAR_UNREAD, SET_QUESTION_QUERY,
+    CLEAR_QUESTION_QUERY, LOG_ADDRESS
 } from './actions'
 
 import {combineReducers} from "redux";
@@ -58,7 +59,9 @@ const userInitState = {
     tag: "",
     status: 0,
     userName: "",
-    unread:[]
+    unread:[],
+    query: null,
+    address: ''
 };
 
 export function user(state=userInitState, action) {
@@ -101,6 +104,12 @@ export function user(state=userInitState, action) {
             return {...state, unread: [...state.unread, action.unread]};
         case CLEAR_UNREAD:
             return  {...state, unread: []};
+        case SET_QUESTION_QUERY:
+            return {...state, query: action.query};
+        case CLEAR_QUESTION_QUERY:
+            return {...state, query: null};
+        case LOG_ADDRESS:
+            return {...state, address: action.address};
         default :
             return state;
     }

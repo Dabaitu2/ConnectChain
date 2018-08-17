@@ -135,3 +135,14 @@
     }
   }
 }
+
+.goBack {
+  position: absolute;
+  left: calc(12 / 16 * 1rem);
+  display: inline-block;
+  width: 5rem;
+  top:  calc(12 / 16 * 1rem);
+  img {
+    width: calc(11 / 16 * 1rem);
+  }
+}

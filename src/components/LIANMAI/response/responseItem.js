@@ -43,6 +43,8 @@ export default class ResponseItem extends Component {
                 <h5>{`${info.lastChat.user}: ${abstract}`}</h5>
                 <div>
                     {info.hasNews ? <span className={style.newsDot} /> : ""}
+                    {info.adopter == this.props.id && info.adopter != null ?
+                        <img src={require('../../../images/confirm.png')} className={style.GotChoosen}/> : ""}
                     <span className={style.timeContainer}>
                         <span className={style.timeInfo} >
                             <img src={require("../../../images/mcoin.jpg")}

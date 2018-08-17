@@ -9,6 +9,7 @@ import {changePath} from "../../../redux/actions";
 import {withRouter} from "react-router-dom";
 import {instance}   from '../../../config/axiosConfig';
 import style from './slideBar.scss'
+import ToastBox from "../Toast/index";
 
 // Todo 这个信息需要后端来提供，放进redux里管理
 const NavList = [
@@ -44,13 +45,20 @@ class SlideBar extends Component {
 
     async checkHasNews() {
         let ans = await instance.post('/footprint/myAnswer', {ID: this.props.id});
-        for (let v of ans.data) {
-            if (v.unRead > 0) {
-                this.setState({
-                    hasNews: true
-                });
-                return;
+        if(!ans.data || ans.data == null || ans.data.length < 1 ) return;
+        try {
+            for (let v of ans.data) {
+                if (v.unRead > 0) {
+                    this.setState({
+                        hasNews: true
+                    });
+                    return;
+                }
             }
+        } catch (err) {
+            // ToastBox.warning({
+            //     content:"数据为空!"
+            // })
         }
     }
 

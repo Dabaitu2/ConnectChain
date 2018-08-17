@@ -12,6 +12,7 @@ import MyItem from "../../components/LIANMAI/myItem/myItem";
 import {instance} from  '../../config/axiosConfig';
 import {connect} from "react-redux";
 import ToastBox from "../../components/LIANMAI/Toast/index";
+import {withRouter} from "react-router-dom";
 
 const activityTags = ["打牌","抽烟",'喝酒',
     '带孩子','睡觉','挣钱',
@@ -68,6 +69,7 @@ const User = {
     ]
 };
 
+@withRouter
 @connect(
     state => state.user
 )
@@ -95,8 +97,9 @@ class UserInfo extends Component {
 
     getHome = () => {
         // todo 记得恢复，测试
-        instance.get('/my/getHome?ID='+this.props.id).then((res)=>{
+        instance.get('/my/getHome?ID='+this.props.match.params.id).then((res)=>{
         //     instance.get('/my/getHome?ID='+2).then((res)=>{
+            console.log(res);
 
             let user = {
                 avatar: res.data[0].figureurl,
@@ -114,16 +117,20 @@ class UserInfo extends Component {
                 });
             }
 
+            console.log(publishList);
+
             let responseList = [];
-            for (const v of res.data[2]) {
-                responseList.push({
-                    type: 'response',
-                    details: v.questionContent,
-                    finishedTime: calcGaptoToday(transferTZ(v.cutTime)) /1000 >= 0 ? 0 : -calcGaptoToday(transferTZ(v.cutTime)) /1000,
-                    timeStamp: transferTZ(v.cutTime)
-                })
+            if(res.data[2] != null && res.data[2].length !== 0) {
+                for (const v of res.data[2]) {
+                    responseList.push({
+                        type: 'response',
+                        details: v.questionContent,
+                        finishedTime: calcGaptoToday(transferTZ(v.cutTime)) / 1000 >= 0 ? 0 : -calcGaptoToday(transferTZ(v.cutTime)) / 1000,
+                        timeStamp: transferTZ(v.cutTime)
+                    })
+                }
+                console.log(responseList);
             }
-            console.log(responseList);
 
             this.setState({
                 user: user,
@@ -135,21 +142,24 @@ class UserInfo extends Component {
                 });
             });
 
-            if (res.data[0].skill == null || res.data[0].skill.length === 0) {
-                return;
-            }
             let tempData = [];
-            for(const v of res.data[0].skill) {
-                if(v.isUse == 1) {
-                    tempData.push({
-                        item: v.skillType,
-                        mark: v.count
-                    });
+            if (res.data[0].skill != null && res.data[0].skill.length !== 0) {
+                for(const v of res.data[0].skill) {
+                    if(v.isUse == 1) {
+                        tempData.push({
+                            item: v.skillType,
+                            mark: v.count
+                        });
+                    }
                 }
             }
+            console.log("=================")
             this.setState({
                 tags: tempData.slice(0),
-                news: [...publishList, ...responseList]
+                news: [...publishList, ...responseList].slice(0)
+            },()=>{
+                console.log(this.state.news);
+                console.log("=================")
             })
         })
     };
@@ -170,6 +180,9 @@ class UserInfo extends Component {
         return (
             <div className={style.main}>
                 <div className={style.headerBg} />
+                <div className={style.goBack} onClick={this.props.history.goBack}>
+                    <img src={require('../../images/reverseBack.jpg')} alt="back"/>
+                </div>
                 <div className={style.myDetails}>
                     <div className={style.upper}>
                         <div className={style.avatar}>

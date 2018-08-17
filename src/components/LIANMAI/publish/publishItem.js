@@ -61,8 +61,13 @@ class PublishItem extends Component {
                     <h4>{info.title}</h4>
                 </div>
                 <div className={style.assistList}>
-                        <span>回答{info.answer}次</span>
-                        <span>转发{info.transferNum}次</span>
+                        <span>
+                            <span className={style.assistText}>回答 {info.answer}</span>
+                            <span>
+                            ·
+                            </span>
+                            <span className={style.assistTextRight}>转发 {info.transferNum}</span>
+                        </span>
                         <span>发布于{rawTime}</span>
                     </div>
                 </div>

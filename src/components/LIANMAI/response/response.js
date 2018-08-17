@@ -9,6 +9,7 @@ import {withRouter} from "react-router-dom";
 import {instance} from '../../../config/axiosConfig'
 import {connect} from "react-redux";
 import style from './rsItem.scss';
+import ToastBox from "../Toast/index";
 
 
 
@@ -61,28 +62,36 @@ class Response extends Component {
             ID: this.props.id || 4 //todo 后备删除
         },()=>{
             instance.post('/footprint/myAnswer', {ID: this.props.id}).then((res)=>{
-                let questions = res.data;
-                let info = [];
-                if(questions == null || questions.length < 1) return;
-                for (let v of questions) {
-                    let temp = {
-                        id: v.questionID,
-                        title : v.questionTitle,
-                        lastChat : {
-                            user:  v.nickname,
-                            detail: v.content
-                        },
-                        endTime: v.cutTime,
-                        hasNews: v.unRead > 0,
-                        noFinished: v.status != 2,
-                        token: v.token,
-                        dialogueID: v.dialogueID
-                    };
-                    info.push(temp);
+                try {
+                    let questions = res.data;
+                    if (!res.data) return;
+                    let info = [];
+                    if (questions == null || questions.length < 1) return;
+                    for (let v of questions) {
+                        let temp = {
+                            id: v.questionID,
+                            title: v.questionTitle,
+                            lastChat: {
+                                user: v.nickname,
+                                detail: v.content
+                            },
+                            endTime: v.cutTime,
+                            hasNews: v.unRead > 0,
+                            noFinished: v.status != 2,
+                            token: v.token,
+                            dialogueID: v.dialogueID,
+                            adopter: v.adopter
+                        };
+                        info.push(temp);
+                    }
+                    this.setState({
+                        info: info
+                    })
+                } catch (err) {
+                    // ToastBox.warning({
+                    //     content: "没有获取到数据"
+                    // })
                 }
-                this.setState({
-                    info: info
-                })
             })
         })
     }

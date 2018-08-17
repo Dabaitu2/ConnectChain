@@ -9,7 +9,7 @@ import {Link, withRouter} from "react-router-dom";
 import {instance} from '../../config/axiosConfig';
 import {connect} from "react-redux";
 import Cookies from 'js-cookie';
-import {confirm_address_state, logID, saveUserName} from "../../redux/actions";
+import {confirm_address_state, log_address, logID, saveUserName} from "../../redux/actions";
 
 const user = {
     avatar: require('../../images/02.png'),
@@ -27,7 +27,7 @@ const TestData = {
 @withRouter
 @connect(
     state => state.user,
-    {logID, confirm_address_state, saveUserName}
+    {logID, confirm_address_state, saveUserName, log_address}
 )
 class My extends Component {
     constructor(props) {
@@ -43,7 +43,7 @@ class My extends Component {
         Cookies.remove("url");
         let {id} = this.props;
         this.setState({
-            ID: id || Cookies.get('ID') || 1 // 测试
+            ID: id || Cookies.get('ID') || 2 // 测试
         },()=>{
             this.props.logID(this.state.ID);
              instance.get(`/my/getHome?ID=${this.state.ID}`).then((res)=>{
@@ -60,6 +60,7 @@ class My extends Component {
                                 if(res.data.ans && res.data.ans === 'error') {
                                     console.log("读取信息错误");
                                 } else {
+                                    this.props.log_address(res.data.address);
                                     this.props.confirm_address_state(res.data.address && res.data.address !== "");
                                 }
                             })
@@ -83,7 +84,7 @@ class My extends Component {
                             <span className={style.level}>{user.level || "LV.1"}</span>
                         </div>
                         <div className={style.status}>
-                            <Link to={`/UserInfo/${user.id}`}><img src={require('../../images/rightBack.png')} alt="back"/></Link>
+                            <Link to={`/UserInfo/${this.props.id}`}><img src={require('../../images/rightBack.png')} alt="back"/></Link>
                         </div>
                     </div>
                     </div>
@@ -99,15 +100,13 @@ class My extends Component {
                             <img src={require(`../../images/wallet.png`)} alt=""/>
                             <Link className={style.navLink} to={`/wallet/${user.id}`}>钱包</Link>
                         </div>
-                    {/*</div>*/}
-                    {/*<div className={style.bottom}>*/}
                         <div className={style.navItem}>
                             <img src={require('../../images/attach.png')} alt=""/>
                             <Link className={style.navLink} to={`/tags/${user.id}`}>标签</Link>
                         </div>
                         <div className={style.navItem}>
                             <img src={require('../../images/friends.png')} alt=""/>
-                            好友
+                            <Link className={style.navLink} to={`/friends`}>好友</Link>
                         </div>
                         <div className={style.navItem}>
                             <img src={require('../../images/msg.png')} alt=""/>

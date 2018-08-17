@@ -15,6 +15,7 @@ import {buy, changeAddress, sell} from "../../components/LIANMAI/LIANMAI_tools";
 import ToastBox from "../../components/LIANMAI/Toast/index";
 import PrevantModalBox from "../../components/LIANMAI/preventModal/index";
 import Modal from '../../components/LIANMAI/BetterModal/Index'
+import {log_address} from "../../redux/actions";
 
 
 const testInfo = {
@@ -25,7 +26,8 @@ const testInfo = {
 
 @withRouter
 @connect(
-    state => state.user
+    state => state.user,
+    {log_address}
 )
 class Wallet extends Component {
     constructor(props) {
@@ -101,7 +103,9 @@ class Wallet extends Component {
     async acquireAccount(web3, id, pwd) {
         let modal = PrevantModalBox.show();
         try {
+            console.log("start to decrypt PK");
             let account = await getLocalPrivateKey(web3, pwd, id, this.state.address);
+            console.log("decrypt FINISHed");
             this.setState({
                 privateKey: account.privateKey,
                 address: account.address
@@ -112,6 +116,7 @@ class Wallet extends Component {
                 ToastBox.success({
                     content: "私钥授权成功!"
                 });
+                console.log("end!");
             });
         } catch (err) {
             setTimeout(() => {
@@ -317,8 +322,15 @@ class Wallet extends Component {
     };
 
     async handleDraw(num) {
+        let modal = PrevantModalBox.show();
+        if (this.state.token - num < 10) {
+            ToastBox.error({
+                content: "账户余额暂时不能提尽!"
+            });
+            modal();
+            return;
+        }
         try {
-            let modal = PrevantModalBox.show();
             let {id, web3} = this.props;
             let {privateKey, address} = this.state;
             let serializedTx = await sell(parseInt(id, 10), num, this.props.instance, privateKey, address, web3);
@@ -346,12 +358,13 @@ class Wallet extends Component {
             ToastBox.error({
                 content: "请先授权解锁私钥!"
             });
+            modal();
         }
     };
 
     async handleCharge(num) {
+        let modal = PrevantModalBox.show();
         try {
-            let modal = PrevantModalBox.show();
             let {id, web3} = this.props;
             let {privateKey, address} = this.state;
             let serializedTx = await buy(parseInt(id, 10), num, this.props.instance, privateKey, address, web3);
@@ -366,6 +379,10 @@ class Wallet extends Component {
                             });
                             this.getEthInfo.bind(this)();
                             modal();
+                        }).catch(err => {
+                            ToastBox.error({
+                                content: "购买代币失败"
+                            });
                         });
                     });
 
@@ -380,6 +397,7 @@ class Wallet extends Component {
             ToastBox.error({
                 content: "请先授权解锁私钥!"
             });
+            modal();
         }
     }
 
@@ -544,6 +562,7 @@ class Wallet extends Component {
                     token: res.data.token,
                     address: res.data.address
                 }, () => {
+                    this.props.log_address(res.data.address);
                     this.setState({
                         flag: this.state.info.address && this.state.info.address !== "" ? 1 : 0
                     });
@@ -613,8 +632,8 @@ class Wallet extends Component {
                     {this.decidedShowWhichPanel(flag)}
                 </PayModal>
                 <div className={style.nav}>
-                    <div className={style.back}>
-                        <img src={require('../../images/leftBack.jpg')} onTouchStart={history.goBack} alt="back"/>
+                    <div className={style.back} onTouchStart={history.goBack}>
+                        <img src={require('../../images/leftBack.jpg')} alt="back"/>
                         <span>我的钱包</span>
                     </div>
                     <div className={style.seeKey}>

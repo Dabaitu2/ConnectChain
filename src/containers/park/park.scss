@@ -8,8 +8,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100vh;
-  margin-bottom: 4.5rem;
+  height: calc(100vh - 4.1rem);
+  margin-bottom: 4.1rem;
   .searchBar {
     position: fixed;
     top: 0;
@@ -195,5 +195,26 @@
   img {
     width: 0;
     height: 0;
+  }
+}
+
+.empty {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  top:50%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #a8a8a8;
+  font-size: 1.5rem;
+  font-weight: 300 !important;
+  img {
+    width: 7rem;
+    margin: 0 auto;
+  }
+  h4 {
+    font-weight: 300 !important;
   }
 }

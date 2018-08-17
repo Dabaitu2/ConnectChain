@@ -15,17 +15,24 @@ import  MsgBox      from "../../components/LIANMAI/MsgBox/index";
 
 import {CSSTransitionGroup} from "react-transition-group";
 import './pace.scss'
+import {changePath} from "../../redux/actions";
 
 
 @withRouter
 @connect(
-    state => state.user
+    state => state.user,
+    {changePath}
 )
 class Pace extends Component {
 
     constructor(props) {
         super(props);
         this.transitionMode = ""
+        this.state = {
+            startX: 0,
+            showChange: false,
+            direction: 0
+        }
     }
 
     componentWillUpdate(nextProps, nextState) {
@@ -72,9 +79,25 @@ class Pace extends Component {
                 });
             });
         }, 500);
-
     }
 
+    chooseWhereToGo = (now, direction) => {
+        if(direction === 1) {
+            switch (now) {
+                case "transfer":
+                    return "response";
+                default:
+                    return "publish";
+            }
+        } else {
+            switch (now) {
+                case "publish":
+                    return "response";
+                default:
+                    return "transfer";
+            }
+        }
+    };
 
     componentWillUnmount() {
         socket.removeEventListener('sendMessage');
@@ -86,7 +109,33 @@ class Pace extends Component {
         return (
             <div className={'viewPort'}>
                 <SlideBar />
-                <div className={'tabList'}>
+                <div className={'tabList'}
+                     onTouchStart={(e)=>{
+                         this.setState({
+                             startX: e.touches[0].pageX
+                         });
+                         console.log(e.touches[0].pageX);
+                     }}
+                     onTouchMove={(e)=>{
+                         if(Math.abs(e.touches[0].pageX - this.state.startX) > document.body.clientWidth * 0.2) {
+                             this.setState({
+                                 shouldChange: true,
+                                 // 1 为向右滑(获取左边) 0 为向左滑，获取右边
+                                 direction: e.touches[0].pageX - this.state.startX > 0 ? 1:0
+                             });
+                         } else {
+                             this.setState({
+                                 shouldChange: false
+                             });
+                         }
+                     }}
+                     onTouchEnd={()=>{
+                         if(this.state.shouldChange) {
+                             const dest = this.chooseWhereToGo(this.props.path, this.state.direction);
+                             this.props.changePath(dest);
+                         }
+                     }}
+                >
                 <CSSTransitionGroup
                     transitionName={this.transitionMode}
                     transitionEnterTimeout={400}

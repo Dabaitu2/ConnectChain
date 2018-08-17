@@ -12,56 +12,85 @@
   .head {
     box-sizing: border-box;
     padding-top: 1rem;
+    position: relative;
       height: 30%;
       display: flex;
       .left {
-        width: 30%;
+        position: absolute;
+        left: 17%;
+        top: 35%;
         display: flex;
+        align-items: center;
         justify-content: center;
           .avatar {
-            margin-top: 1rem;
-            width: 3rem;
-            height:3rem;
+            width: 2.5rem;
+            height:2.5rem;
             border-radius: 50%;
             overflow: hidden;
+            margin-right: 1rem;
             img {
-              width: 3rem;
-              height:3rem;
+              width: 2.5rem;
+              height:2.5rem;
             }
           }
+        h3 {
+          margin: 0;
+        }
       }
       .right {
-        width: 60%;
-        color: white;
+        width: 70%;
+        color: #333333;
+        position: absolute;
+        left: 3.5rem;
+        font-size: .9rem;
+        top: 60%;
+        height: 6rem;
+        overflow: hidden;
         h3 {
           font-weight: 400;
+        }
+        div {
+          span {
+            display: block;
+            margin-bottom: .5rem;
+            font-size: 1rem;
+            line-height: 2rem;
+            color: #333333;
+            font-weight: 600;
+            margin-top: .5rem;
+          }
         }
       }
   }
   .bottom {
     position: absolute;
-    bottom: 0;
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 0 5%;
-    padding-bottom: 2rem;
+    padding: 0 3rem;
+    bottom: 35%;
     box-sizing: border-box;
     div {
-      width: 45%;
+      min-width: 7.875rem;
       text-align: center;
-      font-size: 1.1rem;
+      font-size: 1rem;
+      span {
+        margin: .5rem;
+      }
     }
     .transfer {
       span {
-        background-color: #ff795a;
+        border-color: #239af4; /* fallback for old browsers */
+        border-image: -webkit-linear-gradient(to right, #239af4, #57bdfc); /* Chrome 10-25, Safari 5.1-6 */
+        border-image: linear-gradient(to right, #239af4, #57bdfc);
+        border: 1px solid;
         display: flex;
         align-items: center;
-        height: 2.4rem;
-        padding: 0.2rem 1rem;
+        height: 2.75rem;
+        padding: 0.375rem 1rem;
         box-sizing: border-box;
         line-height: 2rem;
-        color: white;
+        color: #239af4;
         border-radius: 5px;
         justify-content: center;
         img {
@@ -72,14 +101,17 @@
     }
     .answer {
       span {
-        color: #ff795a;
-        height: 2.4rem;
+        background: #239af4; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #239af4, #57bdfc);
+        background: linear-gradient(to right, #239af4, #57bdfc);
+        color: white;
+        height: 2.75rem;
         padding: 0.2rem 1rem;
         align-items: center;
         box-sizing: border-box;
         line-height: 2rem;
         border-radius: 5px;
-        border: 1px solid #ff795a;
+        //border: 1px solid #ff795a;
         display: flex;
         justify-content: center;
         img {
@@ -92,9 +124,69 @@
 }
 
 .goBack {
-  weight: 1rem !important;
-  bottom: 27%;
-  position: fixed;
-  textAlign: center;
-  left: calc(50% - 1rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -3rem;
+  color: #239af4;
+  line-height: 3rem;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  span{
+    height: 3rem;
+    padding: 1rem;
+    min-width: 3rem;
+    text-align: center !important;
+  }
+  img {
+    height: 2rem;
+    margin: .5rem;
+    opacity: .5;
+    animation: flow 1s linear infinite;
+  }
+  img.rotateArrow {
+    animation: flowRight 1s linear infinite;
+  }
+  //bottom: 27%;
+  //position: fixed;
+  //textAlign: center;
+  //left: calc(50% - 1rem);
+}
+
+@keyframes flow {
+  0% {
+    transform: translateX(0);
+    opacity: .4;
+  }
+  50% {
+    transform: translateX(1rem);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: .4;
+  }
+}
+
+@keyframes flowRight {
+  0% {
+    transform: translateX(0);
+    opacity: .4;
+  }
+  50% {
+    transform: translateX(-1rem);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: .4;
+  }
+}
+
+.toast {
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+  height: 3rem;
 }

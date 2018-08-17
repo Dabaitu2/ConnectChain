@@ -8,10 +8,12 @@ import style from './parkItems.scss';
 import {SecondToDateBlur} from "../../../utils/dates";
 import {withRouter} from "react-router-dom";
 import {connect} from "react-redux";
+import {setOtherQuery} from "../../../redux/actions";
 
 @withRouter
 @connect(
-    state => state.user
+    state => state.user,
+    {setOtherQuery}
 )
 class ParkItems extends Component {
     constructor(props) {
@@ -61,14 +63,14 @@ class ParkItems extends Component {
         return (
             <div
                 onClick={() => {
+                    this.props.setOtherQuery({
+                        tags: info.tags,
+                        previousID: info.id,
+                        transferQuery: this.state.transferQuery,
+                        ansQuery: this.state.ansQuery
+                    });
                     this.props.history.push({
                         pathname: `/otherViewDetail/${info.questionID}`,
-                        query: {
-                            tags: info.tags,
-                            previousID: info.id,
-                            transferQuery: this.state.transferQuery,
-                            ansQuery: this.state.ansQuery
-                        }
                     })
                 }}
                 className={style.main}>
@@ -117,7 +119,7 @@ class ParkItems extends Component {
                 <div className={style.bottom}>
                     <span className={style.tips}>
                         <img
-                            src={require("../../../images/mcoin.jpg")}
+                            src={require("../../../images/mcoin.png")}
                             style={{
                                 height: "1.2rem",
                                 marginRight: "0.3rem"

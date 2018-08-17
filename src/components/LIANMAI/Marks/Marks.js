@@ -10,7 +10,7 @@ import {connect} from "react-redux";
 import {save_marks, save_tag} from "../../../redux/actions";
 import {instance} from '../../../config/axiosConfig';
 
-const TabList = [
+let TabList = [
     "态度好", "回应快", "热心肠", "条理清晰", "体谅人",
 ];
 
@@ -44,12 +44,14 @@ class Marks extends Component {
         if(this.state.newTab!=="") {
             let tabList = this.state.TabList.slice(0);
             tabList.unshift(this.state.newTab.substr(0, 6));
-            tabList.pop();
+            console.log(tabList);
             this.setState({
-                TabList: tabList,
+                TabList: tabList.slice(0),
                 newTab: "",
-                active: 0
             },()=>{
+                this.setState({
+                    active: 0
+                });
                 this.props.save_tag(tabList[0])
             })
             //Todo 发送ajax方法保存标签
@@ -105,7 +107,7 @@ class Marks extends Component {
 
 
     componentWillReceiveProps(nextProps) {
-        if('ID' in nextProps) {
+        if('ID' in nextProps && this.props.ID != nextProps.ID) {
             instance.post('/dialogue/getSkillType', {ID: nextProps.ID}).then((res) => {
                 console.log(res);
                 if (res.data != null && res.data.ans != "fail") {

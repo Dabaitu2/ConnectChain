@@ -11,6 +11,7 @@ import {SecondToDate, transferNormal, transferTZ} from "../../utils/dates";
 import {connect} from "react-redux";
 import ToastBox from "../../components/LIANMAI/Toast/index";
 import _ from "lodash";
+import {clearOtherQuery} from "../../redux/actions";
 
 
 const srcList = [
@@ -21,7 +22,8 @@ const srcList = [
 
 @withRouter
 @connect(
-    state => state.user
+    state => state.user,
+    {clearOtherQuery}
 )
 class QuestionDetail extends Component {
     constructor(props) {
@@ -38,7 +40,7 @@ class QuestionDetail extends Component {
     }
 
     async getForwardList() {
-        let previousID = this.props.history.location.query ? this.props.history.location.query.previousID : 0;
+        let previousID = this.props.query ? this.props.query.previousID : 0;
         const rst = await instance.post('/footprint/getForwardChains', {questionID: this.state.qid, ID: this.props.id, previousID: previousID});
         let UserList = rst.data;
         if(UserList.ans == "fail" || UserList == null) {
@@ -120,7 +122,7 @@ class QuestionDetail extends Component {
     };
 
     render() {
-        let tags = this.props.history.location.query ? this.props.history.location.query.tags : [];
+        let tags = this.props.query ? this.props.query.tags : [];
         let {info,
             onEdit,
             details,
@@ -135,7 +137,10 @@ class QuestionDetail extends Component {
         return (
             <div className={style.main}>
                 <div className={style.back}>
-                    <img onClick={this.props.history.goBack} src={require('../../images/leftBack.jpg')} alt="back"/>
+                    <img onClick={()=>{
+                        this.props.clearOtherQuery();
+                        this.props.history.push('/center/park');
+                    }} src={require('../../images/leftBack.jpg')} alt="back"/>
                 </div>
                 <div className={style.head}>
                     <div className={style.avatar}>
@@ -193,11 +198,11 @@ class QuestionDetail extends Component {
                 <div className={style.btnGroup}>
                     <span onClick={()=>{
                         // console.log(this.props.history.location.query.ansQuery);
-                        this.props.history.push(this.props.history.location.query.ansQuery);
+                        this.props.history.push(this.props.query.ansQuery);
                     }}>我来回答</span>
                     <span
                         onClick={()=>{
-                            this.props.history.push(this.props.history.location.query.transferQuery);
+                            this.props.history.push(this.props.query.transferQuery);
                         }}
                     >帮忙转发</span>
                 </div>
